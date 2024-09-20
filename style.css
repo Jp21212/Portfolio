@@ -1,0 +1,35 @@
+html, body{
+    Margin: 0;
+    Padding: 0;
+    height: 100%;
+    background-color: lightpink;
+}
+
+Navbar{
+    display: flex;
+    Width: 100%;
+Height: 75px;
+justify-content: flex-start;
+align-items: center;
+}
+
+li a {
+    display: flex;
+    color:purple;
+    text-decoration: none;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 23px 20px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+}
+
+a:hover{
+    border-bottom: 1px solid black;
+}
